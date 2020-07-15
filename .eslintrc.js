@@ -14,6 +14,7 @@ module.exports = {
     'space-before-blocks': 0,
     'quote-props': 0,
     'no-unused-vars': 'off',
-    'no-useless-return': 'off'
+    'no-useless-return': 'off',
+    'camelcase': [1, { 'properties': 'never' }]
   }
 }
