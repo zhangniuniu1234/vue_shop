@@ -6,6 +6,7 @@ import welcome from '../components/welcome'
 import users from '../components/user/users'
 import Rights from '../components/power/Rights'
 import Roles from '../components/power/Roles'
+import Cate from '../components/goods/Cate'
 Vue.use(VueRouter)
 
 const router = new VueRouter({
@@ -20,7 +21,8 @@ const router = new VueRouter({
         { path: '/welcome', component: welcome },
         { path: '/users', component: users },
         { path: '/rights', component: Rights },
-        { path: '/roles', component: Roles }
+        { path: '/roles', component: Roles },
+        { path: '/categories', component: Cate }
       ]
     }
   ]
