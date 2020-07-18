@@ -22,5 +22,10 @@ html,body,#app{
 .el-tag{
     margin-top: 7px;
 }
-
+.el-steps{
+    margin: 15px 15px 0 0;
+}
+.quill-editor{
+    min-font-size: 300px;
+}
 
